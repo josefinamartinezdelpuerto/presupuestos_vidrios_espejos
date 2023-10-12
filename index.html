@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Vidriería El Puente</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Presupuesto Vidrios y Espejos</h1>
+            <br>
+            <label for="ancho">Ancho (en metros):</label>
+            <input type="text" id="ancho"><br>
+
+            <label for="largo">Largo (en metros):</label>
+            <input type="text" id="largo"><br>
+
+            <label for="material">Material:</label>
+            <select id="material" onchange="mostrarGrosorVidrio()">
+                <option value>Seleccionar</option>
+                <option value="vidrio">Vidrio</option>
+                <option value="espejo">Espejo</option>
+            </select><br>
+
+            <div id="grosorVidrioDiv" style="display: none;">
+                <label for="grosorVidrio">Grosor del Vidrio (mm):</label>
+                <select id="grosorVidrio">
+                    <option value="40">3mm</option>
+                    <option value="50">4mm</option>
+                    <option value="62">6mm</option>
+                </select><br>
+            </div>
+            <br>
+            <button onclick="calcularPrecio()">Calcular Precio</button>
+            <br>
+            <div id="resultado">
+                <p>Precio en USD: <span id="precioUSD"></span></p>
+                <p>Precio en pesos uruguayos: <span id="precioPesos"></span></p>
+            </div>
+        </div>
+        <script src="formulas.js"></script>
+    </body>
+</html>

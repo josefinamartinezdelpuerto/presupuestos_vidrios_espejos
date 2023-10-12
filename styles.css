@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/logo\ vidrieria.jpeg);
+    background-color: #ebeaeaf7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.79);
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input, select, button {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado {
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    border-style: double;
+    background-color: #a4d0d1;
+    margin-top: 20px;
+    text-align: center;
+}
+#precioPesos{
+    font-weight: bold;
+    color: black;
+}
+#precioUSD{
+    color: black;
+    font-weight: bold;
+}
