@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 10px;
+    margin-bottom: 10px;
     padding: 0;
     background-image: url(img/logo\ vidrieria.jpeg);
     background-color: #ebeaeaf7;
@@ -42,19 +43,19 @@ button {
 
 #resultado {
     padding: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
     border-radius: 5px;
-    border-style: double;
     background-color: #a4d0d1;
     margin-top: 20px;
     text-align: center;
 }
-#precioPesos{
+
+#precioPesos {
     font-weight: bold;
     color: black;
 }
-#precioUSD{
+
+#precioUSD {
     color: black;
     font-weight: bold;
 }
+
